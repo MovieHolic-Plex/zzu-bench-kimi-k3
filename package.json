@@ -1,0 +1,19 @@
+{
+  "name": "rpg-maker-2000-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "test:smoke": "node scripts/smoke.mjs",
+    "test:e2e": "node scripts/e2e.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.5"
+  }
+}
